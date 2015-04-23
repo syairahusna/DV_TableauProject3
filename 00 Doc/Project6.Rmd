@@ -1,0 +1,106 @@
+---
+title: "Project6"
+author: "Syairah Ridzuan, Nathan Waters, Lerone Williams"
+date: "Thursday, April 23, 2015"
+output: html_document
+---
+In this R Markdown document we will display and document each step of CS329e R Project 6.
+
+Project Requirements <http://www.cs.utexas.edu/~cannata/dataVis/Projects/Tableau%20Project%203/Project%20Requirements.html>.
+
+***Describe Data(Blending)***
+- Describe what datasets were used.
+- Describe steps to reproduce.
+- Any interesting details or problems if any were encountered.
+
+***Destination Services From LAX***
+
+***Describe Tableau Steps***
+-  Give a brief description of steps to reproduce
+
+***Describe Graph***
+- A brief explanation for each of the visualizations.
+- Visualization results that are accurate, clear, and elegant.
+  (1) Convey meaningful features of the data, and 
+  (2) Use different techniques.
+
+![](./DestinationServicesFromLAX.png)
+
+***Plane Inventory by Carrier***
+
+***Describe Tableau Steps***
+-  Give a brief description of steps to reproduce
+
+***Describe Graph***
+- A brief explanation for each of the visualizations.
+- Visualization results that are accurate, clear, and elegant.
+  (1) Convey meaningful features of the data, and 
+  (2) Use different techniques.
+
+#![](./DestinationServicesFromLAX.png)
+
+***Avg Airtime by Age of plane***
+
+***Describe Tableau Steps***
+-  Give a brief description of steps to reproduce
+
+***Describe Graph***
+- A brief explanation for each of the visualizations.
+- Visualization results that are accurate, clear, and elegant.
+  (1) Convey meaningful features of the data, and 
+  (2) Use different techniques.
+  
+#![](./DestinationServicesFromLAX.png)
+
+***Most Active Month for Airtravel***
+
+***Describe Tableau Steps***
+-  Give a brief description of steps to reproduce
+
+***Describe Graph***
+- A brief explanation for each of the visualizations.
+- Visualization results that are accurate, clear, and elegant.
+  (1) Convey meaningful features of the data, and 
+  (2) Use different techniques.
+
+
+#![](./DestinationServicesFromLAX.png)
+
+***Interesting Final Graph***
+
+***Describe Tableau Steps***
+-  Give a brief description of steps to reproduce
+
+***Describe Graph***
+- A brief explanation for each of the visualizations.
+- Visualization results that are accurate, clear, and elegant.
+  (1) Convey meaningful features of the data, and 
+  (2) Use different techniques.
+  
+#![](./DestinationServicesFromLAX.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
