@@ -15,6 +15,7 @@ Project Requirements <http://www.cs.utexas.edu/~cannata/dataVis/Projects/Tableau
 
 ***Destination Services From LAX***
 
+
 ***Describe Tableau Steps***
 -  Give a brief description of steps to reproduce
 
@@ -25,6 +26,14 @@ Project Requirements <http://www.cs.utexas.edu/~cannata/dataVis/Projects/Tableau
   (2) Use different techniques.
 
 ![](./DestinationServicesFromLAX.png)
+
+To create the visualization above, one would have to
+- Drag and drop FT.Origin on Filter and filter only by 'LAX'
+- Drag and drop airports.latitude to Rows and airports.longitude to Column
+- Click on Show Me and choose Symbol Maps
+- Drag and drop the FT.Number of Records and FT.Dest to Label in Marks section
+- Drag and drop the FT.Number of Records to Size in Marks section
+- Drag and drop the FT.Dest to Color in Marks section
 
 ***Plane Inventory by Carrier***
 
