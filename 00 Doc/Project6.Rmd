@@ -25,8 +25,14 @@ We combined FT and Airports though FT:Dest and FT:Iata (which stands for Interna
 ***Destination Services From LAX***
 
 
-***Describe Tableau Steps***
--  Give a brief description of steps to reproduce
+***Tableau Steps***
+
++ Drag and drop FT.Origin on Filter and filter only by 'LAX'
++ Drag and drop airports.latitude to Rows and airports.longitude to Column
++ Click on Show Me and choose Symbol Maps
++ Drag and drop the FT.Number of Records and FT.Dest to Label in Marks section
++ Drag and drop the FT.Number of Records to Size in Marks section
++ Drag and drop the FT.Dest to Color in Marks section
 
 ***Describe Graph***
 - A brief explanation for each of the visualizations.
@@ -35,14 +41,6 @@ We combined FT and Airports though FT:Dest and FT:Iata (which stands for Interna
   (2) Use different techniques.
 
 ![](./DestinationServicesFromLAX.png)
-
-To create the visualization above, one would have to
-- Drag and drop FT.Origin on Filter and filter only by 'LAX'
-- Drag and drop airports.latitude to Rows and airports.longitude to Column
-- Click on Show Me and choose Symbol Maps
-- Drag and drop the FT.Number of Records and FT.Dest to Label in Marks section
-- Drag and drop the FT.Number of Records to Size in Marks section
-- Drag and drop the FT.Dest to Color in Marks section
 
 ***Plane Inventory by Carrier***
 
@@ -87,14 +85,16 @@ To create the visualization above, one would have to
 **Relation between Manufacturer and Average Total Delay**
 
 ***Tableau Steps***
-*    Place SDelay in Rows.  That stands for the total amount of delay in the flight.  Make sure that the aggregate is average or AVG.
-*    Then place Manufacturer on columns.
-*    Put origin in the filter tab and change it to filter out everything except LAX.
-*    I chose a bar graph because it is more easily readable than an also appropriate line graph.
-*    This is blending between FT and Airplane
+
++ Place SDelay in Rows.  That stands for the total amount of delay in the flight.  Make sure that the aggregate is average or AVG.
++ Then place Manufacturer on columns.
++ Put origin in the filter tab and change it to filter out everything except LAX.
++ I chose a bar graph because it is more easily readable than an also appropriate line graph.
++ This is blending between FT and Airplane
 
 ***Graph Description***
-*    This graph allows you to see see the relation between the manufacturer of the airplane and the average total delay for the planes of each manufacturer.  It filters out the results to only focus on the average delays for planes flying out of LAX airport.  Based off the graph, I would be afraid of flying out of LAX by planes from the Wayne Wobig R manufacturer.  
+
++ This graph allows you to see see the relation between the manufacturer of the airplane and the average total delay for the planes of each manufacturer.  It filters out the results to only focus on the average delays for planes flying out of LAX airport.  Based off the graph, I would be afraid of flying out of LAX by planes from the Wayne Wobig R manufacturer.  
 
 #![](./LAXManufacturerDelay.png)
 
@@ -102,13 +102,16 @@ To create the visualization above, one would have to
 **Relation between Aircraft Engine and Average Total Delay**
 
 ***Tableau Steps***
-*    Place SDelay in Rows.  That stands for the total amount of delay in the flight.  Make sure that the aggregate is average or AVG.
-*    Then place Engine Type on columns.
-*    Put origin in the filter tab and change it to filter out everything except LAX.
-*    I chose a bar graph because it is more easily readable than an also appropriate line graph*    This is blending between FT and Airplane
+
++ Place SDelay in Rows.  That stands for the total amount of delay in the flight.  Make sure that the aggregate is average or AVG.
++ Then place Engine Type on columns.
++ Put origin in the filter tab and change it to filter out everything except LAX.
++ I chose a bar graph because it is more easily readable than an also appropriate line graph
++ This is blending between FT and Airplane
 
 ***Graph Description***
-*    This graph allows you to see see the relation between the engine type of the airplane and the average total delay for the planes of each manufacturer.  It filters out the results to only focus on the average delays for planes flying out of LAX airport.  Based off the graph, I would be choose a flight that uses an airplane with a Turbo-Prop engine.    
+
++ This graph allows you to see see the relation between the engine type of the airplane and the average total delay for the planes of each manufacturer.  It filters out the results to only focus on the average delays for planes flying out of LAX airport.  Based off the graph, I would be choose a flight that uses an airplane with a Turbo-Prop engine.    
 
 #![](./LAXEngine.png)
 
