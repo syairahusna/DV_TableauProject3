@@ -69,7 +69,7 @@ We thought it is interesting to visualize the number of flight services done by 
 + Drag and drop FT.number of records in Marks > Text
 + Click Show Me > Treemaps
 
-#![](./blending_Average Airtime of Planes Based on Plane's Year of Starting Service.png)
+#![](./datajoining_project6_FreqofServicesByPlaneAge.png)
 
 ***Describe Graph***
 - The treemaps shows that planes with many flight services are those from late 1990s till mid-2000s. This got us curious about the average distance of destinations catered by the planes based on their age bracket and this leads us to produce the next visualization. It is worth noting that we used airtime instead of distance because we assume that airtime is proportional to distance.
