@@ -93,7 +93,7 @@ We are interested to see the average airtime for all the planes based on their a
 + Drag and drop FT.Uniquecarrier to Marks > Color
 
   
-![](./blending_Average Airtime of Planes Based on Plane's Year of Starting Service.png)
+![](./blending_AverageAirtimeofPlanesBasedonPlanesYearofStartingService.png)
 
 ***Describe Graph***
 - The above visualization demonstrates a correlation between higher frequency of service and longer airtime. This means that many of the flight services that depart from LAX cater to longer-distance travel that spans from 3-5 hours on average.
