@@ -47,6 +47,7 @@ We are interested to know more about unique carriers and their planes that are c
 #![](./blending2.png)
 
 ***Describe Tableau Steps***
+
 + Drag and drop FT.Origin on Filter and filter only by 'LAX'
 + Drag and drop plane.Year(Plane) to Columns and FT.Uniquecarrier to Rows
 + Filter plane.Year(Plane) so as only to include non-zero values
@@ -63,6 +64,7 @@ We are interested to know more about unique carriers and their planes that are c
 We thought it is interesting to visualize the number of flight services done by the plane based on their active year. Again, this is done through joining FT & plane in a single data source (no data blending here). We use treemaps as visualization method. 
 
 ***Describe Tableau Steps***
+
 + Drag and drop FT.Origin in Filters and choose only 'LAX'
 + Drag and drop plane.Year(plane) to Columns 
 + Filter plane.Year(Plane) so as only to include non-zero values
@@ -80,6 +82,7 @@ Second visualization produced using data blending - FT & plane
 We are interested to see the average airtime for all the planes based on their age (Year). 
 
 ***Describe Tableau Steps***
+
 + Drag and drop Tailnum on Marks to establish link joining both data source
 + Drag and drop FT.Origin in Filters and choose only 'LAX'
 + Drag and drop plane.Year to Columns and FT.Airtime to Rows
@@ -90,7 +93,7 @@ We are interested to see the average airtime for all the planes based on their a
 + Drag and drop FT.Uniquecarrier to Marks > Color
 
   
-#![](./blending_Average Airtime of Planes Based on Plane's Year of Starting Service.png)
+![](./blending_Average Airtime of Planes Based on Plane's Year of Starting Service.png)
 
 ***Describe Graph***
 - The above visualization demonstrates a correlation between higher frequency of service and longer airtime. This means that many of the flight services that depart from LAX cater to longer-distance travel that spans from 3-5 hours on average.
@@ -111,7 +114,7 @@ We are interested to see the average airtime for all the planes based on their a
 
 #![](./DestinationServicesFromLAX.png)
 
-**Relation between Manufacturer and Average Total Delay**
+***Relation between Manufacturer and Average Total Delay***
 
 ***Tableau Steps***
 
